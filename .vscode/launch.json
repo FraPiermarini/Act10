@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Act10Application<Act10>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.Act10.Act10Application",
+            "projectName": "Act10",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
