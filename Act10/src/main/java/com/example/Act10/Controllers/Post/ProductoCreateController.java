@@ -3,7 +3,7 @@ package com.example.Act10.Controllers.Post;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.Act10.Service.Interface.domain.IProductoCreateService;
+import com.example.Act10.Service.Interface.domain.IProductoService;
 import com.example.Act10.dtos.Request.ProductoCreateRequestodto;
 import com.example.Act10.dtos.Response.ProductoResponseDto;
 
@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 @RequestMapping("/productos")
 @AllArgsConstructor
 public class ProductoCreateController {
-    private final IProductoCreateService productoCreateService;
+    private final IProductoService productoCreateService;
 
     @PostMapping
     public ResponseEntity<ProductoResponseDto> create(
